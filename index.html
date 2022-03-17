@@ -12,11 +12,19 @@
     <title>Input SHOW HIDE</title>
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="input__overlay" id="input-overlay"></div>
         <i class="fa-solid fa-lock input__lock"></i>
         <input type="password" class="input__password" id="input-pass" placeholder="Password...">
-        <i class="fa-solid fa-eye-slash" id="input-icon"></i>
+        <i class="fa-solid fa-eye-slash input__icon" id="input-icon"></i>
+    </div> -->
+    <div class="input">
+        <div class="input__overlay" id="input-overlay"></div>
+        <i class="fas fa-lock input__lock"></i>
+        <input type="password" placeholder="Password..." class="input__password" id="input-pass">
+        <!-- Se coloca la clase input__icon para cambiar el icono en js -->
+        <i class="fas fa-eye input__icon" id="input-icon"></i> 
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
